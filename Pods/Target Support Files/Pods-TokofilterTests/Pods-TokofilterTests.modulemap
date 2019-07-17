@@ -1,0 +1,6 @@
+framework module Pods_TokofilterTests {
+  umbrella header "Pods-TokofilterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

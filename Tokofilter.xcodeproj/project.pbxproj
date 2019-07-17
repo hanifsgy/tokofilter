@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1404E951CA124C61233E67DB /* Pods_TokofilterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A0E7292046A28EC8C4871E /* Pods_TokofilterTests.framework */; };
+		842E290B22DE898C0050DC0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E290A22DE898C0050DC0C /* AppDelegate.swift */; };
+		842E290D22DE898C0050DC0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E290C22DE898C0050DC0C /* ViewController.swift */; };
+		842E291222DE898F0050DC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842E291122DE898F0050DC0C /* Assets.xcassets */; };
+		842E291522DE898F0050DC0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842E291322DE898F0050DC0C /* LaunchScreen.storyboard */; };
+		842E292022DE898F0050DC0C /* TokofilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E291F22DE898F0050DC0C /* TokofilterTests.swift */; };
+		84A4450B22DE9014007B0048 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4450A22DE9014007B0048 /* Coordinator.swift */; };
+		84A4450D22DE915C007B0048 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4450C22DE915C007B0048 /* AppCoordinator.swift */; };
+		84A4451122DE92BA007B0048 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4451022DE92BA007B0048 /* UIAlertController.swift */; };
+		84A4451322DE9F67007B0048 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4451222DE9F67007B0048 /* Constant.swift */; };
+		9BD17E1E395DB4075B3AB949 /* Pods_Tokofilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB732F6031251591916ACAB /* Pods_Tokofilter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842E291C22DE898F0050DC0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842E28FF22DE898C0050DC0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842E290622DE898C0050DC0C;
+			remoteInfo = Tokofilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3C440EF8D9A549302DC3D2 /* Pods-TokofilterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokofilterTests.debug.xcconfig"; path = "Target Support Files/Pods-TokofilterTests/Pods-TokofilterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20A0E7292046A28EC8C4871E /* Pods_TokofilterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokofilterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3917800CE1AF5D19514133 /* Pods-Tokofilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tokofilter.release.xcconfig"; path = "Target Support Files/Pods-Tokofilter/Pods-Tokofilter.release.xcconfig"; sourceTree = "<group>"; };
+		3D452D3D61BD2F66A9EC3E09 /* Pods-TokofilterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokofilterTests.release.xcconfig"; path = "Target Support Files/Pods-TokofilterTests/Pods-TokofilterTests.release.xcconfig"; sourceTree = "<group>"; };
+		842E290722DE898C0050DC0C /* Tokofilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokofilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842E290A22DE898C0050DC0C /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
+		842E290C22DE898C0050DC0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842E291122DE898F0050DC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842E291422DE898F0050DC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842E291622DE898F0050DC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842E291B22DE898F0050DC0C /* TokofilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokofilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842E291F22DE898F0050DC0C /* TokofilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokofilterTests.swift; sourceTree = "<group>"; };
+		842E292122DE898F0050DC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A4450A22DE9014007B0048 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		84A4450C22DE915C007B0048 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		84A4451022DE92BA007B0048 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		84A4451222DE9F67007B0048 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E442297895E56648799255FF /* Pods-Tokofilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tokofilter.debug.xcconfig"; path = "Target Support Files/Pods-Tokofilter/Pods-Tokofilter.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB732F6031251591916ACAB /* Pods_Tokofilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tokofilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842E290422DE898C0050DC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD17E1E395DB4075B3AB949 /* Pods_Tokofilter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842E291822DE898F0050DC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1404E951CA124C61233E67DB /* Pods_TokofilterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D4BD574F0C2961BEB88974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDB732F6031251591916ACAB /* Pods_Tokofilter.framework */,
+				20A0E7292046A28EC8C4871E /* Pods_TokofilterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		109DCA2038C49843EF7F70BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E442297895E56648799255FF /* Pods-Tokofilter.debug.xcconfig */,
+				3B3917800CE1AF5D19514133 /* Pods-Tokofilter.release.xcconfig */,
+				0D3C440EF8D9A549302DC3D2 /* Pods-TokofilterTests.debug.xcconfig */,
+				3D452D3D61BD2F66A9EC3E09 /* Pods-TokofilterTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		842E28FE22DE898C0050DC0C = {
+			isa = PBXGroup;
+			children = (
+				842E290922DE898C0050DC0C /* Tokofilter */,
+				842E291E22DE898F0050DC0C /* TokofilterTests */,
+				842E290822DE898C0050DC0C /* Products */,
+				109DCA2038C49843EF7F70BA /* Pods */,
+				04D4BD574F0C2961BEB88974 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		842E290822DE898C0050DC0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842E290722DE898C0050DC0C /* Tokofilter.app */,
+				842E291B22DE898F0050DC0C /* TokofilterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842E290922DE898C0050DC0C /* Tokofilter */ = {
+			isa = PBXGroup;
+			children = (
+				84A4450E22DE9297007B0048 /* Common */,
+				842E293022DE8ECD0050DC0C /* Coordinator */,
+				842E292E22DE8B620050DC0C /* Modules */,
+				842E292D22DE89D50050DC0C /* App */,
+				842E290C22DE898C0050DC0C /* ViewController.swift */,
+				842E292A22DE89B80050DC0C /* Supporting Files */,
+			);
+			path = Tokofilter;
+			sourceTree = "<group>";
+		};
+		842E291E22DE898F0050DC0C /* TokofilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				842E291F22DE898F0050DC0C /* TokofilterTests.swift */,
+				842E292122DE898F0050DC0C /* Info.plist */,
+			);
+			path = TokofilterTests;
+			sourceTree = "<group>";
+		};
+		842E292A22DE89B80050DC0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842E291622DE898F0050DC0C /* Info.plist */,
+				842E291322DE898F0050DC0C /* LaunchScreen.storyboard */,
+				842E291122DE898F0050DC0C /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842E292D22DE89D50050DC0C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				842E290A22DE898C0050DC0C /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		842E292E22DE8B620050DC0C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		842E293022DE8ECD0050DC0C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				84A4450A22DE9014007B0048 /* Coordinator.swift */,
+				84A4450C22DE915C007B0048 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		84A4450E22DE9297007B0048 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84A4450F22DE929D007B0048 /* Extension */,
+				84A4451222DE9F67007B0048 /* Constant.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84A4450F22DE929D007B0048 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84A4451022DE92BA007B0048 /* UIAlertController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842E290622DE898C0050DC0C /* Tokofilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842E292422DE898F0050DC0C /* Build configuration list for PBXNativeTarget "Tokofilter" */;
+			buildPhases = (
+				7DBF5A1DE1CF6941A16006BB /* [CP] Check Pods Manifest.lock */,
+				842E290322DE898C0050DC0C /* Sources */,
+				842E290422DE898C0050DC0C /* Frameworks */,
+				842E290522DE898C0050DC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tokofilter;
+			productName = Tokofilter;
+			productReference = 842E290722DE898C0050DC0C /* Tokofilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842E291A22DE898F0050DC0C /* TokofilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842E292722DE898F0050DC0C /* Build configuration list for PBXNativeTarget "TokofilterTests" */;
+			buildPhases = (
+				9233D6FCA3D4D8BB44EF1C49 /* [CP] Check Pods Manifest.lock */,
+				842E291722DE898F0050DC0C /* Sources */,
+				842E291822DE898F0050DC0C /* Frameworks */,
+				842E291922DE898F0050DC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842E291D22DE898F0050DC0C /* PBXTargetDependency */,
+			);
+			name = TokofilterTests;
+			productName = TokofilterTests;
+			productReference = 842E291B22DE898F0050DC0C /* TokofilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842E28FF22DE898C0050DC0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Personal Organization";
+				TargetAttributes = {
+					842E290622DE898C0050DC0C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					842E291A22DE898F0050DC0C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 842E290622DE898C0050DC0C;
+					};
+				};
+			};
+			buildConfigurationList = 842E290222DE898C0050DC0C /* Build configuration list for PBXProject "Tokofilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842E28FE22DE898C0050DC0C;
+			productRefGroup = 842E290822DE898C0050DC0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842E290622DE898C0050DC0C /* Tokofilter */,
+				842E291A22DE898F0050DC0C /* TokofilterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842E290522DE898C0050DC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842E291522DE898F0050DC0C /* LaunchScreen.storyboard in Resources */,
+				842E291222DE898F0050DC0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842E291922DE898F0050DC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DBF5A1DE1CF6941A16006BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tokofilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9233D6FCA3D4D8BB44EF1C49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokofilterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842E290322DE898C0050DC0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A4450D22DE915C007B0048 /* AppCoordinator.swift in Sources */,
+				842E290D22DE898C0050DC0C /* ViewController.swift in Sources */,
+				842E290B22DE898C0050DC0C /* AppDelegate.swift in Sources */,
+				84A4450B22DE9014007B0048 /* Coordinator.swift in Sources */,
+				84A4451122DE92BA007B0048 /* UIAlertController.swift in Sources */,
+				84A4451322DE9F67007B0048 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842E291722DE898F0050DC0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842E292022DE898F0050DC0C /* TokofilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842E291D22DE898F0050DC0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842E290622DE898C0050DC0C /* Tokofilter */;
+			targetProxy = 842E291C22DE898F0050DC0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842E291322DE898F0050DC0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842E291422DE898F0050DC0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842E292222DE898F0050DC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842E292322DE898F0050DC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842E292522DE898F0050DC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E442297895E56648799255FF /* Pods-Tokofilter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZTFYZRUYW;
+				INFOPLIST_FILE = Tokofilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tokofilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842E292622DE898F0050DC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3917800CE1AF5D19514133 /* Pods-Tokofilter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZTFYZRUYW;
+				INFOPLIST_FILE = Tokofilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tokofilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		842E292822DE898F0050DC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3C440EF8D9A549302DC3D2 /* Pods-TokofilterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZTFYZRUYW;
+				INFOPLIST_FILE = TokofilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TokofilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokofilter.app/Tokofilter";
+			};
+			name = Debug;
+		};
+		842E292922DE898F0050DC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D452D3D61BD2F66A9EC3E09 /* Pods-TokofilterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZTFYZRUYW;
+				INFOPLIST_FILE = TokofilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TokofilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokofilter.app/Tokofilter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842E290222DE898C0050DC0C /* Build configuration list for PBXProject "Tokofilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842E292222DE898F0050DC0C /* Debug */,
+				842E292322DE898F0050DC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842E292422DE898F0050DC0C /* Build configuration list for PBXNativeTarget "Tokofilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842E292522DE898F0050DC0C /* Debug */,
+				842E292622DE898F0050DC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842E292722DE898F0050DC0C /* Build configuration list for PBXNativeTarget "TokofilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842E292822DE898F0050DC0C /* Debug */,
+				842E292922DE898F0050DC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842E28FF22DE898C0050DC0C /* Project object */;
+}
