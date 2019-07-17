@@ -6,6 +6,7 @@ target 'Tokofilter' do
   use_frameworks!
 
   # Pods for Tokofilter
+  pod 'Texture'
 
   target 'TokofilterTests' do
     inherit! :search_paths

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C781AF9CBD7BDDD4FC43C002B704C23E"
+               BlueprintIdentifier = "42F84B1B7710E6670E736217C7399F3E"
                BuildableName = "Pods-Tokofilter.framework"
                BlueprintName = "Pods-Tokofilter"
                ReferencedContainer = "container:Pods.xcodeproj">
